@@ -1,32 +1,146 @@
 img{
-  width: 120px;
+  width: 160px;
+  height: auto;
+}
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
 
 #Paragraph-1{
-  /* display: flex; */
-  background-color: #1F2937
-  }
+  padding: 96px 160px;
+  padding-top: 0px;
+  margin: 0;
+  border: 0;
+  background-color: #1F2937;
+  color: white;
+  height: 360px;
+  box-sizing: border-box;
+}
+
+.Par1-up{
+  display: flex;
+  /* background-color: yellow; */
+  height: 40px;
+  font-size: 12px;
+  justify-content: flex-end;
+  gap: 16px;
+  align-items: center;
+  /* justify-content: space-between; */
+
+}
+.Par1-up h3{
+  position: absolute;
+  left: 160px;
+  /* background-color: yellow; */
+  padding: 2px 0;
+  border: 0;
+  margin: 0;
+  align-self: center;
+}
+.Par1-up div{
+  /* background-color: yellow; */
+  /* flex: 1 1 0; */
+  padding: 2px 2px;
+  border: 0;
+  margin: 0;
+  align-self: center;
+}
+
+.Par1-down{
+  display: flex;
+  padding: 64px 0;
+  /* background-color: orange; */
+  box-sizing: border-box;
+  height: 320px;
+  gap: 48px;
+  font-size: 12px;
+  /* background: grey */
+}
+
+.division1, .division2{
+  /* background-color: grey; */
+  flex: 1 1 0;
+}
+
+.division2{
+  background-color: grey;
+  padding: 84px 0;
+}
+
+/* .division2 p{
+  vertical-align: middle;
+} */
+
+.division1 button{
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 3px 28px;
+  border-radius: 6px;
+}
+
+.division1 h2{
+  color: #F9FAF8;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+.division1 p{
+  /* font-size: 12px; */
+  color: #E5E7EB;
+  align-content: center;
+  padding: 6px 0;
+}
+
+#Paragraph-2{
+  height: 360px;
+  padding: 24px 160px;
+  padding-top: 0px;
+  box-sizing: border-box;
+}
 
 #Paragraph-2 h3{
+  color: #152937;
+  font-size: 30px;
   text-align: center;
+  padding: 24px 0;
+  font-style: italic;
 }
 
 #Paragraph-2 .IllustrationContainer{
   display: flex;
+  justify-content: space-around;
 }
 
 #Paragraph-3{
+  box-sizing: border-box;
+  height: 296px;
   background-color: #E5E7EB;
-  font-size: 36px;
-  font: "light italic" ;
+  padding: 64px 160px;
+  font-size: 30px;
+  font-style: italic;
+  text-align: left;
   color: #1F2937;
 }
 
 #Paragraph-4{
   display: flex;
   background-color: #3882F6;
-  color: white;
+  color: #F9FAF8;
+  padding: 36px;
+  border-radius: 6px;
   margin: 48px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+#Paragraph-4 button{
+  border: 1.5px white solid;
+  background-color: #3882F6;
+  padding: 3px 28px;
+  color: #F9FAF8;
+  border-radius: 6px;
 }
